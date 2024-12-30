@@ -1,9 +1,20 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+/* Your custom styles here */
+/* body {
+  @apply bg-gray-100;
+} */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 /* Your custom styles here */
 body {
-  @apply bg-gray-100;
+  background-color: #f3f4f6; /* This is equivalent to bg-gray-100 */
 }
+
+
 
